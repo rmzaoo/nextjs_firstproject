@@ -1,0 +1,33 @@
+/*@import url('../fonts/SFProText-Regular.ttf');*/
+
+@font-face {font-family: "Bold"; 
+  src: url("../fonts/Bold.ttf"); 
+}
+
+@font-face {font-family: "Regular"; 
+  src: url("../fonts/Regular.ttf"); 
+}
+
+@font-face {font-family: "Thin"; 
+  src: url("../fonts/Thin.ttf"); 
+}
+
+@font-face {font-family: "Ultralight"; 
+  src: url("../fonts/Ultralight.ttf"); 
+}
+
+
+body {
+  font-family: 'Ultralight', sans-serif;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title{
+  font-family: 'Bold', sans-serif;
+}
